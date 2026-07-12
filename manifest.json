@@ -1,0 +1,30 @@
+{
+  "id": "inventory-forecasting",
+  "title": "Inventory Forecasting App",
+  "industry": "Retail, Commerce & Consumer",
+  "industryId": "retail-commerce-consumer",
+  "specialization": "Inventory Forecasting",
+  "sourcePlatformGroup": "retail-ecommerce-platform",
+  "sources": [
+    "AIInventoryForecasting",
+    "AIProductPhotoEnhancer",
+    "dropShipping",
+    "pos"
+  ],
+  "featureCount": 158,
+  "candidateFeatureCount": 279,
+  "eliminatedSimilarFeatures": 121,
+  "evidenceCount": 596,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 1,
+    "seededTables": 1,
+    "seededRows": 17
+  },
+  "visibleFeatureCount": 3,
+  "featureVisibilityMode": "seeded-or-ai"
+}
