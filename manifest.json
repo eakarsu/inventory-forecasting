@@ -11,12 +11,12 @@
     "dropShipping",
     "pos"
   ],
-  "featureCount": 168,
+  "featureCount": 169,
   "candidateFeatureCount": 299,
-  "eliminatedSimilarFeatures": 131,
-  "evidenceCount": 713,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "eliminatedSimilarFeatures": 130,
+  "evidenceCount": 711,
+  "aiPageCount": 4,
+  "sourceAIPageCount": 4,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 1,
     "seededRows": 17
   },
-  "visibleFeatureCount": 3,
+  "visibleFeatureCount": 7,
   "featureVisibilityMode": "seeded-or-ai"
 }

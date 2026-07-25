@@ -151,17 +151,14 @@
     ],
     "sourceProjects": [
       "AICommercialCleaningOperations",
-      "AIFashionDesigner",
       "AIFitnessCoach",
       "AIFuneralHomeOperationsManager",
       "AIMenuDigitizer",
       "AIProductPhotoEnhancer",
-      "AISubscriptionBoxCurator",
       "AITattooBodyArtStudioManager",
       "AITravelItineraryPlanner",
       "AIVendingMachineNetworkManager",
       "AIVirtualShowroomBuilder",
-      "AiECommerceAgent",
       "ai-food-flow-order"
     ],
     "consolidatedFromApps": [
@@ -172,9 +169,7 @@
       "retail-commerce-consumer/funeral-home-operations-manager",
       "retail-commerce-consumer/inventory-forecasting",
       "retail-commerce-consumer/marketplace-builder-platform",
-      "retail-commerce-consumer/personal-stylist",
       "retail-commerce-consumer/pet-health-monitor",
-      "retail-commerce-consumer/pricing-optimizer",
       "retail-commerce-consumer/recipe-meal-planner",
       "retail-commerce-consumer/tattoo-body-art-studio-manager"
     ],
@@ -458,62 +453,6 @@
         "path": "server/routes/visualMerchandisingOptimizer.js:46",
         "route": "/analyze",
         "originApp": "retail-commerce-consumer/marketplace-builder-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISubscriptionBoxCurator",
-        "path": "backend/src/routes/competitorPriceMonitor.js:46",
-        "route": "/analyze",
-        "originApp": "retail-commerce-consumer/personal-stylist"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISubscriptionBoxCurator",
-        "path": "backend/src/routes/customerLtvPredictor.js:46",
-        "route": "/analyze",
-        "originApp": "retail-commerce-consumer/personal-stylist"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISubscriptionBoxCurator",
-        "path": "backend/src/routes/logisticsAddressValidator.js:46",
-        "route": "/analyze",
-        "originApp": "retail-commerce-consumer/personal-stylist"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISubscriptionBoxCurator",
-        "path": "backend/src/routes/preferenceBandit.js:46",
-        "route": "/analyze",
-        "originApp": "retail-commerce-consumer/personal-stylist"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISubscriptionBoxCurator",
-        "path": "backend/src/routes/seasonalDemandForecast.js:46",
-        "route": "/analyze",
-        "originApp": "retail-commerce-consumer/personal-stylist"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISubscriptionBoxCurator",
-        "path": "backend/src/routes/unboxingOptimizer.js:46",
-        "route": "/analyze",
-        "originApp": "retail-commerce-consumer/personal-stylist"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiECommerceAgent",
-        "path": "backend/src/routes/index.js:1912",
-        "route": "/ai/analyze",
-        "originApp": "retail-commerce-consumer/personal-stylist"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFashionDesigner",
-        "path": "backend/routes/personalColorAnalysis.js:25",
-        "route": "/analyze",
-        "originApp": "retail-commerce-consumer/pricing-optimizer"
       },
       {
         "kind": "api",
@@ -5443,9 +5382,11 @@
     "canonicalKey": "markdown timing",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/advanced-ai?tool=markdown-timing",
       "/markdown-timing"
     ],
     "sourceProjects": [
@@ -5455,6 +5396,13 @@
       "retail-commerce-consumer/inventory-forecasting"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIInventoryForecasting",
+        "path": "frontend/src/pages/AdvancedAITools.jsx:6",
+        "route": "/advanced-ai?tool=markdown-timing",
+        "originApp": "retail-commerce-consumer/inventory-forecasting"
+      },
       {
         "kind": "api",
         "sourceProject": "AIInventoryForecasting",
@@ -5546,9 +5494,11 @@
     "canonicalKey": "balancing multi warehouse",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/advanced-ai?tool=multi-warehouse-balancing",
       "/multi-warehouse-balancing"
     ],
     "sourceProjects": [
@@ -5558,6 +5508,13 @@
       "retail-commerce-consumer/inventory-forecasting"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIInventoryForecasting",
+        "path": "frontend/src/pages/AdvancedAITools.jsx:28",
+        "route": "/advanced-ai?tool=multi-warehouse-balancing",
+        "originApp": "retail-commerce-consumer/inventory-forecasting"
+      },
       {
         "kind": "api",
         "sourceProject": "AIInventoryForecasting",
@@ -6041,6 +5998,41 @@
         "path": "frontend/src/pages/company/Press.tsx",
         "route": "/company/Press",
         "originApp": "retail-commerce-consumer/inventory-forecasting"
+      }
+    ]
+  },
+  {
+    "name": "Price Optimization",
+    "canonicalKey": "optimization price",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/price-optimization"
+    ],
+    "sourceProjects": [
+      "AIInventoryForecasting",
+      "AIWineSpiritsinventorySommelier"
+    ],
+    "consolidatedFromApps": [
+      "retail-commerce-consumer/classifytravelersecurity",
+      "retail-commerce-consumer/inventory-forecasting"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIInventoryForecasting",
+        "path": "backend/src/routes/ai.js:186",
+        "route": "/price-optimization",
+        "originApp": "retail-commerce-consumer/inventory-forecasting"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIWineSpiritsinventorySommelier",
+        "path": "backend/routes/ai.js:157",
+        "route": "/price-optimization",
+        "originApp": "retail-commerce-consumer/classifytravelersecurity"
       }
     ]
   },
@@ -6545,12 +6537,14 @@
     "canonicalKey": "promotion simulator",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/PromotionSimulator",
-      "/promotion-simulator"
+      "/promotion-simulator",
+      "/promotion-simulator?tool=promotion-simulator"
     ],
     "sourceProjects": [
       "AIInventoryForecasting"
@@ -6559,6 +6553,13 @@
       "retail-commerce-consumer/inventory-forecasting"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIInventoryForecasting",
+        "path": "frontend/src/pages/PromotionSimulator.jsx:64",
+        "route": "/promotion-simulator?tool=promotion-simulator",
+        "originApp": "retail-commerce-consumer/inventory-forecasting"
+      },
       {
         "kind": "api",
         "sourceProject": "AIInventoryForecasting",
@@ -7985,9 +7986,11 @@
     "canonicalKey": "disruption simulator supplier",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/advanced-ai?tool=supplier-disruption-simulator",
       "/supplier-disruption-simulator"
     ],
     "sourceProjects": [
@@ -7997,6 +8000,13 @@
       "retail-commerce-consumer/inventory-forecasting"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIInventoryForecasting",
+        "path": "frontend/src/pages/AdvancedAITools.jsx:16",
+        "route": "/advanced-ai?tool=supplier-disruption-simulator",
+        "originApp": "retail-commerce-consumer/inventory-forecasting"
+      },
       {
         "kind": "api",
         "sourceProject": "AIInventoryForecasting",

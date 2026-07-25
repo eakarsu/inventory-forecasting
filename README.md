@@ -3,7 +3,7 @@
 Industry: **Retail, Commerce & Consumer**  
 Specialization: **Inventory Forecasting**
 
-This standalone application consolidates source-backed capabilities into 168 optimized features, including 3 visible data-backed or AI-enabled views. Its public demo SQLite database contains 17 sanitized source rows across 1 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 169 optimized features, including 7 visible data-backed or AI-enabled views. Its public demo SQLite database contains 17 sanitized source rows across 1 imported tables and 120 operational workflow records.
 
 ## Run locally
 
